@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Stop Watch | HTML CSS JS</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>STOP WATCH</h1>
+      <h1 class="time"></h1>
+<!-- Cards for Time -->
+      <div class="cards">
+        <div class="hours box-size">
+          <label>HOURS</label>
+          <input class="hour-input" type="text" readonly />
+        </div>
+        <div class="minutes box-size">
+          <label>MINUTES</label>
+          <input class="min-input" type="text" readonly />
+        </div>
+        <div class="seconds box-size">
+          <label>SECONDS</label>
+          <input class="sec-input" type="text" readonly />
+        </div>
+      </div>
+      <!-- Buttons -->
+      <div class="buttons">
+        <button class="start btn">Start</button>
+        <button class="pause btn">Pause</button>
+        <button class="reset btn">Reset</button>
+        <button class="lap btn">Lap</button>
+      </div>
+
+      <div class="lap-container">
+        <h2>Lap Time</h2>
+        <ul class="lap-list">
+          <!-- list items -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
